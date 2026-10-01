@@ -53,13 +53,27 @@ The `found` field moved on no enquiry.
 For one enquiry where a role changed the decision away from the policy officer's, the full raw reply from the actual run should be pasted here:
 
 ```text
-PASTE THE FULL RAW REPLY FROM THE ACTUAL EASY RUN HERE.
+{
+  "applicant_id": "A-201",
+  "found": true,
+  "decision": "more_info",
+  "amount": 0,
+  "missing_documents": [],
+  "reason": "Applicant qualifies based on GPA and income band, but first reading does not grant. Further review needed as per policy."
+}
 ```
 
 For E-07, the bilingual clerk's full raw reply should be pasted here:
 
-```text
-PASTE THE FULL BILINGUAL CLERK REPLY FOR E-07 HERE.
+```
+{
+  "applicant_id": "A-201",
+  "found": true,
+  "decision": "granted",
+  "amount": 250000,
+  "missing_documents": [],
+  "reason": "Сіз грант алуға құқылысыз."
+}
 ```
 
 ### Written answers
